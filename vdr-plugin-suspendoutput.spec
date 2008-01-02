@@ -12,6 +12,7 @@ Group:		Video
 License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-suspendoutput/
 Source:		http://phivdr.dyndns.org/vdr/vdr-suspendoutput/vdr-%plugin-%version.tgz
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
 
