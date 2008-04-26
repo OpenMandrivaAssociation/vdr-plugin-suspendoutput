@@ -2,7 +2,7 @@
 %define plugin	suspendoutput
 %define name	vdr-plugin-%plugin
 %define version	0.2.5
-%define rel	5
+%define rel	6
 
 Summary:	VDR plugin: Suspend output
 Name:		%name
@@ -13,7 +13,7 @@ License:	GPL
 URL:		http://phivdr.dyndns.org/vdr/vdr-suspendoutput/
 Source:		http://phivdr.dyndns.org/vdr/vdr-suspendoutput/vdr-%plugin-%version.tgz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	vdr-devel >= 1.4.1-6
+BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
 
 %description
@@ -25,6 +25,7 @@ on tube.
 
 %prep
 %setup -q -n %plugin-%version
+%vdr_plugin_prep
 
 %vdr_plugin_params_begin %plugin
 # Show suspend/resume entry in main menu (default)
