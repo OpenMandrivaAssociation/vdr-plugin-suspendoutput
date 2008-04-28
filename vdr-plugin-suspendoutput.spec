@@ -2,7 +2,7 @@
 %define plugin	suspendoutput
 %define name	vdr-plugin-%plugin
 %define version	0.2.5
-%define rel	6
+%define rel	7
 
 Summary:	VDR plugin: Suspend output
 Name:		%name
