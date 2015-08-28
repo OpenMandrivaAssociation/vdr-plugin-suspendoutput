@@ -3,7 +3,7 @@
 Summary:	VDR plugin: Suspend output
 Name:		vdr-plugin-%plugin
 Version:	1.0.1
-Release:	4
+Release:	5
 Group:		Video
 License:	GPLv2+
 URL:		http://phivdr.dyndns.org/vdr/vdr-suspendoutput/
