@@ -6,7 +6,7 @@ Version:	1.0.1
 Release:	5
 Group:		Video
 License:	GPLv2+
-URL:		http://phivdr.dyndns.org/vdr/vdr-suspendoutput/
+URL:		https://phivdr.dyndns.org/vdr/vdr-suspendoutput/
 Source:		http://phivdr.dyndns.org/vdr/vdr-suspendoutput/vdr-%plugin-%{version}.tgz
 BuildRequires:	vdr-devel >= 1.6.0
 Requires:	vdr-abi = %vdr_abi
